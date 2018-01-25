@@ -1,13 +1,13 @@
 Arrays
 ==
 
-- In an arrays of arrays, e.g. given `[[], [1, 2, 3], [4, 5], [], [], [6, 7], [8], [9, 10], [], []]`, print: `1, 2, 3, 4, 5, 6, 7, 8, 9, 10`.
+- In an array of arrays, e.g. given `[[], [1, 2, 3], [4, 5], [], [], [6, 7], [8], [9, 10], [], []]`, print: `1, 2, 3, 4, 5, 6, 7, 8, 9, 10`.
   - Implement an iterator that supports `hasNext()`, `next()` and `remove()` methods.
 - Given a list of item prices, find all possible combinations of items that sum a particular value `K`.
 - Paginate an array with constraints, such as skipping certain items.
 - Implement a circular buffer using an array.
 - Given array of arrays, sort them in ascending order.
-- Given an array of integers, print out a histogram of using said array; include a base layer (all stars)
+- Given an array of integers, print out a histogram using the said array; include a base layer (all stars)
   - E.g. `[5, 4, 0, 3, 4, 1]`
 
 ```
@@ -50,9 +50,11 @@ Arrays
 - Given an array of integers, find a maximum sum of non-adjacent elements.
   - E.g. `[1, 0, 3, 9, 2]` should return `10 (1 + 9)`.
   - [Source](http://blog.gainlo.co/index.php/2016/12/02/uber-interview-question-maximum-sum-non-adjacent-elements/)
-- Given an array of integers, modify the array by moving all the zeros to the end (right side). The order of other elements doesn’t matter.
+- Given an array of integers, modify the array by moving all the zeros to the end (right side). The order of other elements doesn't matter.
   - E.g. `[1, 2, 0, 3, 0, 1, 2]`, the program can output `[1, 2, 3, 1, 2, 0, 0]`.
   - [Source](http://blog.gainlo.co/index.php/2016/11/18/uber-interview-question-move-zeroes/).
 - Given an array, return the length of the longest increasing contiguous subarray.
   - E.g., `[1, 3, 2, 3, 4, 8, 7, 9]`, should return `4` because the longest increasing array is `[2, 3, 4, 8]`.
   - [Source](http://blog.gainlo.co/index.php/2017/02/02/uber-interview-questions-longest-increasing-subarray/).
+- Given an array of integers where every value appears twice except one, find the single, non-repeating value. Follow up: do so with O(1) space.
+  - E.g., `[2, 5, 3, 2, 1, 3, 4, 5, 1]` returns 4, because it is the only value that appears in the array only once.

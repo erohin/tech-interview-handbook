@@ -4,13 +4,13 @@ String
 - Output list of strings representing a page of hostings given a list of CSV strings.
 - Given a list of words, find the word pairs that when concatenated form a palindrome.
 - Find the most efficient way to identify what character is out of place in a non-palindrome.
-- Implement a simple regex parser which, given a string and a pattern, returns a boolean indicating whether the input matches the pattern. By simple, we mean that the regex can only contain special character: `*` (star), `.` (dot), `+` (plus). The star means that there will be zero or more of previous character in that place in the pattern. The dot means any character for that position. The plus means one or more of previous character in that place in the pattern.
+- Implement a simple regex parser which, given a string and a pattern, returns a boolean indicating whether the input matches the pattern. By simple, we mean that the regex can only contain the following special characters: `*` (star), `.` (dot), `+` (plus). The star means that there will be zero or more of the previous character in that place in the pattern. The dot means any character for that position. The plus means one or more of previous character in that place in the pattern.
 - Find all words from a dictionary that are x edit distance away.
 - Given a string IP and number n, print all CIDR addresses that cover that range.
 - Write a function called `eval`, which takes a string and returns a boolean. This string is allowed 6 different characters: `0`, `1`, `&`, `|`, `(`, and `)`. `eval` should evaluate the string as a boolean expression, where `0` is `false`, `1` is `true`, `&` is an `and`, and `|` is an `or`.
   - E.g `"(0 | (1 | 0)) & (1 & ((1 | 0) & 0))"`
 - Given a pattern string like `"abba"` and an input string like `"redbluebluered"`, return `true` if and only if there's a one to one mapping of letters in the pattern to substrings of the input.
-  - E.g. `"abba"` and `"redblueredblue"` should return `true`.
+  - E.g. `"abba"` and `"redbluebluered"` should return `true`.
   - E.g. `"aaaa"` and `"asdasdasdasd"` should return `true`.
   - E.g. `"aabb"` and `"xyzabcxzyabc"` should return `false`.
 - If you received a file in chunks, calculate when you have the full file. Quite an open-ended question. Can assume chunks come with start and end, or size, etc.
